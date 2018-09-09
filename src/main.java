@@ -3,6 +3,7 @@ class main {
         name("Sam");
         name("Timmy");
         name("Jess");
+        name("Nathan");
     }
 
     public static void name(String name) {
