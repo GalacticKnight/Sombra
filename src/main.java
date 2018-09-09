@@ -1,12 +1,11 @@
+import java.util.Scanner;
+
 class main {
     public static void main(String[] args) {
-        name("Sam");
-        name("Timmy");
-        name("Jess");
-        name("Nathan");
+       Scanner tech = new Scanner(System.in);
+        System.out.println("tell me your name");
+        String name = tech.nextLine();
+        System.out.println("hello " + name);
     }
 
-    public static void name(String name) {
-        System.out.println("thank you " + name);
-    }
 }
