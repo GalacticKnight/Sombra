@@ -14,6 +14,4 @@ class main {
 
         System.out.println(number + "+" + number2 + "=" + result); //final solution it shows the full progress of addition
         }
-
     }
-
